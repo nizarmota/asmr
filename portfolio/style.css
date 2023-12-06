@@ -21,6 +21,25 @@ a:hover {
   color: 5e3bee !important;
 }
 
+.rainbow-glitter {
+  background: linear-gradient(45deg, #ff3399, #ffcc33, #33ccff, #99ff33);
+  background-size: 400% 400%;
+  animation: rainbowGlitter 8s ease infinite;
+  color: #fff;
+  padding: 10px;
+}
+
+@keyframes rainbowGlitter {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 h5 {
   font-size: 20px;
 }
