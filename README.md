@@ -1,3 +1,3 @@
 # asmr
-mostly tutorial follow-alongs that I did 4fun 
+Mostly tutorial follow-along that I did 4 fun :)
 
